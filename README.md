@@ -11,9 +11,11 @@ This extension displays item values from a GitHub JSON and visualizes item stats
 * Fetches and displays item values from a GitHub-hosted JSON file.
 * Enhances the catalog and trade pages by visualizing item stats.
 
-<img src="https://media.discordapp.net/attachments/1343173559131963454/1368162454378512405/image.png?ex=68173814&is=6815e694&hm=eec190957f9ba95e31cc59fa3f230380349957ac262f7465c5c214a196f2305e&=&format=webp&quality=lossless" width="100" height="100" />
-<img src="https://media.discordapp.net/attachments/1343173559131963454/1368162586650083379/image.png?ex=68173833&is=6815e6b3&hm=dd32eae6c7e771178749312dbd16c1d7a04c6d59f6f3849f0fedcc5764aaf999&=&format=webp&quality=lossless" width="100" height="100" />
-<img src="https://media.discordapp.net/attachments/1343173559131963454/1368162587002273844/image.png?ex=68173833&is=6815e6b3&hm=ca18304091f643f8bf6f107df23b92748290560c56d7d713eb1601b349565e9e&=&format=webp&quality=lossless" width="100" height="100" />
+<div style="display: flex; gap: 10px;">
+    <img src="https://media.discordapp.net/attachments/1343173559131963454/1368162454378512405/image.png?ex=68173814&is=6815e694&hm=eec190957f9ba95e31cc59fa3f230380349957ac262f7465c5c214a196f2305e&=&format=webp&quality=lossless" width="350" height="200" />
+    <img src="https://media.discordapp.net/attachments/1343173559131963454/1368162586650083379/image.png?ex=68173833&is=6815e6b3&hm=dd32eae6c7e771178749312dbd16c1d7a04c6d59f6f3849f0fedcc5764aaf999&=&format=webp&quality=lossless" width="350" height="200" />
+    <img src="https://media.discordapp.net/attachments/1343173559131963454/1368162587002273844/image.png?ex=68173833&is=6815e6b3&hm=ca18304091f643f8bf6f107df23b92748290560c56d7d713eb1601b349565e9e&=&format=webp&quality=lossless" width="350" height="200" />
+</div>
 
 ## Installation
 
