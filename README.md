@@ -4,7 +4,7 @@
 
 ## What is this?
 
-This extension displays item values from a GitHub JSON and visualizes item stats on both the catalog page and trades in [Pekora.zip](https://www.pekora.zip).
+An extension displays item values from a GitHub JSON and visualizes item stats on both the catalog page and trades in [pekora.zip](https://www.pekora.zip).
 
 ## Features
 
