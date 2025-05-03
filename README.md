@@ -1,5 +1,7 @@
 # Trading-Extension-For-Pekora
 
+<img src="https://www.pekora.zip/images/thumbnails/1d1dbf7959ffe6f8a0519362224b17454c8c61568ca4f8725ec4f37e00b3cf65.png" width="100" height="100" />
+
 ## What is this?
 
 This extension displays item values from a GitHub JSON and visualizes item stats on both the catalog page and trades in [Pekora.zip](https://www.pekora.zip).
