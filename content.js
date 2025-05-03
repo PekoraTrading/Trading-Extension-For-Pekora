@@ -1,6 +1,32 @@
 (async function () {
   console.log("✅ Pekora Trade Enhancer loaded (fixed selectors)");
 
+  const localVersion = "1.0";
+
+fetch("https://raw.githubusercontent.com/PekoraTrading/Trading-Extension-For-Pekora/main/version.json")
+  .then(response => response.json())
+  .then(data => {
+    const latestVersion = data.version;
+    if (localVersion !== latestVersion) {
+      console.warn(`⚠ Your extension is outdated! Local: ${localVersion}, Latest: ${latestVersion}`);
+      const warning = document.createElement("div");
+      warning.textContent = "Your extension is outdated!";
+      warning.style.position = "fixed";
+      warning.style.bottom = "10px";
+      warning.style.left = "10px";
+      warning.style.color = "white";
+      warning.style.fontSize = "14px";
+      warning.style.background = "rgba(0, 0, 0, 0.7)";
+      warning.style.padding = "5px 10px";
+      warning.style.borderRadius = "5px";
+      warning.style.zIndex = "9999";
+      document.body.appendChild(warning);
+    }
+  })
+  .catch(error => {
+    console.error("Failed to check extension version:", error);
+  });
+
   const res = await fetch("https://raw.githubusercontent.com/PekoraTrading/Values-Demand/main/Collectibles.json");
   const data = await res.json();
   const valueMap = new Map(data.map(item => [cleanName(item.Name), item.Value]));
