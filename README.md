@@ -40,6 +40,6 @@ To install the **Trading Extension for Pekora**, follow the steps below:
 * Click on **Load unpacked**.
 * In the file explorer window, select the folder that you extracted and you're done.
 
----
+### The Tutorial In a Nutshell
 
-This format will look nice and be clear to users on your GitHub repository page.
+<img src="https://cdn.discordapp.com/attachments/1330990091245588521/1368329778544902144/tut.png?ex=6817d3e9&is=68168269&hm=7417dd2c219dd0bf07a8e6bcaaeba8271c9b9c4a768e3587d286068dfe40a242&=&format=webp&quality=lossless" style="width: 50%; height: 50%;" />
