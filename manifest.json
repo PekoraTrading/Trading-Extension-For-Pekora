@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Pekora Trade Enhancer",
   "version": "1.0",
-  "description": "Enhances Pekora.zip by showing item values from GitHub and visualizing stats on catalog and trade pages. Latest release: https://github.com/PekoraTrading/Trading-Extension-For-Pekora",
+  "description": "Enhances the trading experience for pekora.zip. Latest release: https://github.com/PekoraTrading/Trading-Extension-For-Pekora",
   "permissions": [
     "activeTab"
   ],
