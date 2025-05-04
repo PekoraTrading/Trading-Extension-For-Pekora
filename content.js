@@ -1,7 +1,7 @@
 (async function () {
   console.log("✅ Pekora Trade Enhancer loaded (fixed selectors)");
 
-  const localVersion = "1.0";
+  const localVersion = "1.1";
 
 fetch("https://raw.githubusercontent.com/PekoraTrading/Trading-Extension-For-Pekora/main/version.json")
   .then(response => response.json())
@@ -893,11 +893,18 @@ function updateRAPValues() {
 
   let lastUrl = location.href;
 
-setInterval(() => {
-  const currentUrl = location.href;
-  if (currentUrl !== lastUrl) {
-    lastUrl = currentUrl;
-    location.reload();
-  }
-}, 50);
+  setInterval(() => {
+    const currentUrl = location.href;
+    if (currentUrl !== lastUrl) {
+      lastUrl = currentUrl;
+  
+      const isTradesPage = currentUrl === "https://www.pekora.zip/My/Trades.aspx";
+      const isCatalogPage = /^https:\/\/www\.pekora\.zip\/catalog\/\d+\/[^\/]+$/.test(currentUrl);
+      const isUserProfile = /^https:\/\/www\.pekora\.zip\/users\/\d+\/profile$/.test(currentUrl);
+  
+      if (isTradesPage || isCatalogPage || isUserProfile) {
+        location.reload();
+      }
+    }
+  }, 50); 
 })();
