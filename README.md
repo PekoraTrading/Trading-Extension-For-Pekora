@@ -3,7 +3,7 @@
 <img src="https://www.pekora.zip/images/thumbnails/1d1dbf7959ffe6f8a0519362224b17454c8c61568ca4f8725ec4f37e00b3cf65.png" width="100" height="100" />
 
 ## Update Logs:
-+ Fixed an issue that prevented servers from being viewed.
++ Fixed an issue that prevented servers & groups from being viewed.
 
 ## What is this?
 
